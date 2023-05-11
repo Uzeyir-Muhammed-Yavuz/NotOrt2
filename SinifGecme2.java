@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class SinifGecme2 {
     public static void main(String[] args) {
 
-        double matematik, fizik, türkce, kimya, muzik, ortalama =0, sonuc ;
-        int bDers = 0;
+        double matematik, fizik, türkce, kimya, muzik, ortalama =0, sonuc =0 ;
+        int bDers =0;
 
         Scanner inp = new Scanner(System.in);
 
@@ -12,8 +12,8 @@ public class SinifGecme2 {
         matematik = inp.nextDouble();
 
         if (matematik >= 0 && matematik <= 100) {
-            ortalama = + matematik;
-            bDers =+1;
+            ortalama += matematik;
+            bDers +=1;
 
         } else {
             System.out.println("Notunuz 0 ve 100 arasında olmadığından değerlendirmeye alınmamıştır !");
@@ -23,8 +23,8 @@ public class SinifGecme2 {
         fizik = inp.nextDouble();
 
         if (fizik >= 0 && fizik <= 100) {
-            ortalama = +fizik;
-            bDers= +1;
+            ortalama += fizik;
+            bDers +=1;
 
         } else {
             System.out.println("Notunuz 0 ve 100 arasında olmadığından değerlendirmeye alınmamıştır !");
@@ -33,8 +33,8 @@ public class SinifGecme2 {
         türkce = inp.nextDouble();
 
         if (türkce >= 0 && türkce <= 100) {
-            ortalama = +türkce;
-            bDers = +1;
+            ortalama += türkce;
+            bDers +=1;
 
         } else {
             System.out.println("Notunuz 0 ve 100 arasında olmadığından değerlendirmeye alınmamıştır !");
@@ -43,8 +43,8 @@ public class SinifGecme2 {
         kimya = inp.nextDouble();
 
         if (kimya >= 0 && kimya <= 100) {
-            ortalama = +kimya;
-            bDers = +1;
+            ortalama += kimya;
+            bDers +=1;
 
         } else {
             System.out.println("Notunuz 0 ve 100 arasında olmadığından değerlendirmeye alınmamıştır !");
@@ -53,8 +53,8 @@ public class SinifGecme2 {
         muzik = inp.nextDouble();
 
         if (muzik >= 0 && muzik <= 100) {
-            ortalama = +muzik;
-            bDers = +1;
+            ortalama += muzik;
+            bDers +=1;
         } else {
 
             System.out.println("Notunuz 0 ve 100 arasında olmadığından değerlendirmeye alınmamıştır !");
